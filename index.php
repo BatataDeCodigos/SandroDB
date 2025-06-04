@@ -14,7 +14,7 @@
         <div class="card">
           <div class="card-header">
             <h4>Lista de Usuários
-              <a href="usuario-create.php" class="btn btn-primary float-end">Adicionar usuário</a>
+              <a href="aluno-create.php" class="btn btn-primary float-end">Adicionar usuário</a>
             </h4>
           </div>
           <div class="card-body">
@@ -24,12 +24,17 @@
                   <th>ID</th>
                   <th>Nome</th>
                   <th>Email</th>
-                  <th>DATA</th>
-                  <th></th>
+                  <th>Data nascimento</th>
+                  <th>Ações</th>
                 </tr>
               </thead>
-            </table>
             <tbody>
+              <tr>
+                  <td>1</td>
+                  <td>test1</td>
+                  <td>@gmail.com</td>
+                  <td>1/1/1111</td>
+                  <td>
                 <a href="" class="btn btn-secondary btn-sm">
                     Visualizar
                 </a>
@@ -41,7 +46,10 @@
                   Excluir
                 </button>
                 </form>
+                </td>
+                </tr>
             </tbody>
+             </table>
           </div>
         </div>
       </div>
